@@ -15,7 +15,7 @@ pipeline {
 
         stage('Running Test Cases') {
             steps {
-                bat "dokcer-compose up testcaseimage"
+                bat "docker-compose up testcaseimage"
             }
 
 

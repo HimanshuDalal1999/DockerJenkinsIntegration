@@ -44,4 +44,7 @@ services:
       - browser=chrome
     volumes: 
       - ./Chrometestreports:/home/seleniumtestframework/target
+
+
+
   
