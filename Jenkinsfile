@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Creating an Image') {
             steps {
-                bat "docker build -t=testcaseimage ."
+                bat "docker build -t=customizeimage ."
             }
         }
         stage('Making an Infrastructure UP') {
@@ -15,7 +15,7 @@ pipeline {
 
         stage('Running Test Cases') {
             steps {
-                bat "docker-compose up testcaseimage"
+                bat "docker-compose up customizeimage"
             }
 
 
