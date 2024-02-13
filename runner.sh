@@ -5,8 +5,8 @@ echo "-------------------------------------------------------------------------"
 # Do not start the tests immediately. Hub has to be ready with browser nodes
 echo "Checking if Hub is ready ..!"
 count=0
-while [ "$( curl -s http://192.168.173.31:4444/status | jq -r .value.ready )" != "true" ]
-do
+while [ "$( curl -s http://192.168.141.31:4444/status | jq -r .value.ready )" != "true" ]
+do 							
   count=$((count+1))
   echo "Attempt: ${count}"
   if [ "$count" -ge 60 ]

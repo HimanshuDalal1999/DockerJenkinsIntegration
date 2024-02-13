@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-13T05:26:42 GMT" name="Suite" finished-at="2024-02-13T05:27:47 GMT" duration-ms="65433">
+  <suite started-at="2024-02-13T12:06:25 GMT" name="Suite" finished-at="2024-02-13T12:07:13 GMT" duration-ms="48341">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@2d710f1a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-13T05:26:42 GMT" name="Test" finished-at="2024-02-13T05:27:47 GMT" duration-ms="65433">
+    <test started-at="2024-02-13T12:06:25 GMT" name="Test" finished-at="2024-02-13T12:07:13 GMT" duration-ms="48341">
       <class name="executions.amazonrunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T05:26:42 GMT" name="setUpClass" finished-at="2024-02-13T05:26:44 GMT" duration-ms="1838" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T12:06:25 GMT" name="setUpClass" finished-at="2024-02-13T12:06:28 GMT" duration-ms="3394" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@740b6628]]>
+                <![CDATA[org.testng.TestRunner@5d318e91]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T05:26:44 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-13T05:27:04 GMT" duration-ms="19927" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T12:06:28 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-13T12:06:55 GMT" duration-ms="26176" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@ at ✽.page title should contains "Shoppping"(classpath:Executions/Homepage.feat
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T05:27:04 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-13T05:27:36 GMT" duration-ms="32484" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T12:06:55 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-13T12:07:04 GMT" duration-ms="9647" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@ at ✽.page title should contains "Shoppping"(classpath:Executions/Homepage.feat
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T05:27:36 GMT" name="tearDownClass" finished-at="2024-02-13T05:27:47 GMT" duration-ms="11045" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:executions.amazonrunner@2d710f1a]" started-at="2024-02-13T12:07:04 GMT" name="tearDownClass" finished-at="2024-02-13T12:07:13 GMT" duration-ms="8912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
