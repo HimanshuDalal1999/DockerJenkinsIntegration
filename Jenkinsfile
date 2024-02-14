@@ -15,7 +15,7 @@ pipeline {
 
         stage('Making an Infrastructure UP') {
             steps {
-                bat "docker-compose up hub chrome edge firefox"
+                bat "docker-compose up -d hub chrome edge firefox "
             }
         }
 
@@ -24,7 +24,7 @@ pipeline {
 
         stage('Running Test Cases') {
             steps {
-                bat "docker-compose up dockerimagejenkins"
+                bat "docker-compose up cucumber-chrome-testcases"
             }
 
 					post {
@@ -39,11 +39,11 @@ pipeline {
 					
 					Thanks,<br>
 					Automation Team - ATT 19-August <h3>(Himanshu)</h3>''', subject: '$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS! - Execution of Maven project on Mozila FireFox Browser', to: 'himanshudalal76247@gmail.com'
-					            			}
+					            	}
 					        
 					    		}
         
-   														 }
+   							 }
       
  				}
 
