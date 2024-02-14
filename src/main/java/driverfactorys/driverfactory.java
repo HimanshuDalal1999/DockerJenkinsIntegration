@@ -27,8 +27,8 @@ public class driverfactory {
 		
 		
 		
-		driver = new RemoteWebDriver(new URL("http://192.168.171.31:4444/wd/hub"), Capable);
-		//http://192.168.171.31:4444
+		driver = new RemoteWebDriver(new URL("http://192.168.141.31:4444/wd/hub"), Capable);
+		//http://192.168.141.31:4444
 		return driver;
 	}
 	public static WebDriver getDriver()
