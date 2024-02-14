@@ -12,9 +12,9 @@ do
   if [ "$count" -ge 60 ]
   then
       echo "**** HUB IS NOT READY WITHIN 60 SECONDS ****"
-      exit1
+      exit 1
   fi
-  sleep1
+  sleep 1
 done
 
 # At this point, selenium grid should be up!
